@@ -1,5 +1,5 @@
 import axios from "axios";
-import { Response } from "../types";
+import { Response } from "../../src/components/App/App.types";
 
 
 
