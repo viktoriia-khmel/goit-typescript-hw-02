@@ -23,16 +23,18 @@ const SearchBar: React.FC<SearchBarProps> = ({setQuery}) => {
       <div>          
           <header className={s.wrapper}>
               <Formik initialValues={initialValues} onSubmit={handleSubmit}>
-                      <Form className={s.form} >                    
+                 
+                      <Form className={s.form} >
                           <Field
-                        className={s.input}
+                              className={s.input}
                               name="query"
                               placeholder="Search images and photos"
                           />
-                      <button type="submit" className={s.button}>
-                          <CiSearch />
-                      </button>
+                          <button type="submit" className={s.button}>
+                              <CiSearch />
+                          </button>
                       </Form>
+                  
                   </Formik>
                     <Toaster />
             </header>
