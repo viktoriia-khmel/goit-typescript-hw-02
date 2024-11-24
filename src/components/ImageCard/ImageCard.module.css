@@ -1,0 +1,11 @@
+.image {
+  width: 320px;
+  height: 240px;
+  object-fit: cover;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.title {
+  margin-top: 24px;
+}

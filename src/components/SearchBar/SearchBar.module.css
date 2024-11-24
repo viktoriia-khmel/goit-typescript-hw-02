@@ -1,0 +1,50 @@
+.wrapper {
+  background-color: blue;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+.form {
+  position: relative;
+  display: flex;
+  align-items: center;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.input {
+  width: 100%;
+
+  padding: 10px;
+  padding-right: 40px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  outline: none;
+
+  color: rgb(22, 25, 27);
+}
+
+.button {
+  position: absolute;
+  right: 10px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* .button svg {
+  width: 16px;
+  height: 16px;
+  fill: #642ff59f;
+} */
+
+/* .button:hover svg {
+  fill: #000;
+} */
+
+.input::placeholder {
+  color: #60759570;
+  opacity: 1;
+}

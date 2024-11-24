@@ -1,0 +1,8 @@
+.button {
+  transition: 0.5s ease;
+}
+
+.button:hover {
+  background-color: blue;
+  color: aliceblue;
+}

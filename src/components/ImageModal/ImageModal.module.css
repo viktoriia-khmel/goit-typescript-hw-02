@@ -1,0 +1,38 @@
+.modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 680px;
+  max-width: 740px;
+  background: rgba(189, 168, 168, 0.233);
+  padding: 30px;
+  
+  outline: none;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.modal_image {
+  width: 680px;
+  height: 460px;
+  object-fit: contain;
+}
+
+.close_btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 12px;
+  cursor: pointer;
+  color: #999999;
+}
